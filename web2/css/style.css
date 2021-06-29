@@ -1,0 +1,253 @@
+.card {
+    width: 400px;
+    border: none;
+    border-radius: 14px !important
+}
+
+.area1 {
+    background-color: white;
+}
+
+.area1 img {
+    width: 100%;
+    height: 200px;
+}
+
+.image {
+    top: -50px;
+    position: relative;
+    left: 100px;
+}
+
+.area2 {
+    background-color: #fff;
+}
+
+.info {
+    margin-top: -50px;
+    text-align: left;
+}
+
+.info pre {
+    background: transparent;
+    border: none;
+}
+
+.text-center.centered h3 {
+    color: white;
+    font-weight: bold;
+}
+
+.text-center.centered p {
+    color: white;
+}
+
+.col-md-4 {
+    margin-top: 30px;
+}
+
+.centered {
+    position: absolute;
+}
+
+@media only screen and(max-width: 600px) {
+    #resizeid1 {
+        font-style: oblique;
+    }
+}
+
+.centered-2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+#id1 {
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+#id1 p {
+    font-size: large;
+}
+
+#topNav {
+    margin-bottom: 0;
+}
+
+#id2 {
+    height: 400px;
+    width: 100%;
+}
+
+#id2 h3 {
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+#id2 p {
+    font-size: larger;
+}
+
+#id3 {
+    height: 200px;
+    width: 100%;
+    background-color: #f6f6f6;
+}
+
+#id3 h4 {
+    font-weight: normal;
+    font-style: italic;
+    margin-top: 80px;
+}
+
+#id4 {
+    font-size: 14px;
+}
+
+#id4 a {
+    font-weight: bolder;
+}
+
+#id4 img {
+    width: 100%;
+}
+
+#nav2 {
+    width: 100%;
+}
+
+#nav2.affix-top {
+    position: static;
+}
+
+#nav2.affix {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    transition: all .6s ease-in-out;
+    -webkit-transition: all .6s ease-in-out;
+}
+
+.navbar-collapse.collapse :hover {
+    nav-down: auto;
+}
+
+.navbar-toggle {
+    outline: 0;
+}
+
+.topnav-up {
+    background-color: #6422ba;
+    overflow: hidden;
+    height: 50px;
+    width: 100%;
+}
+
+.topnav-up a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav-up :hover {
+    background-color: white;
+    border-radius: 50px;
+    color: black;
+}
+
+.topnav-down {
+    background: transparent;
+    overflow: hidden;
+}
+
+
+/* Style the links inside the navigation bar */
+
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+#sellBtn {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 12px;
+    margin-top: 30px;
+    background-color: #6422ba;
+    border-radius: 0px;
+}
+
+
+/* Change the color of links on hover */
+
+.topnav a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+
+
+/* Add an active class to highlight the current page */
+
+.topnav a.active {
+    background-color: purple;
+    color: white;
+}
+
+
+/* Hide the link that should open and close the topnav on small screens */
+
+.topnav .icon {
+    display: none;
+}
+
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+
+@media screen and (max-width: 600px) {
+    .topnav.responsive {
+        position: relative;
+    }
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
